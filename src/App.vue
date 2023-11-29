@@ -10,7 +10,7 @@ export default {
 
 <template>
   <div class="main-screen">
-    <drop-area />
+    <drop-area :maxFile="3" :maxSize="1 * 1024 * 1024"/>
   </div>
 </template>
 

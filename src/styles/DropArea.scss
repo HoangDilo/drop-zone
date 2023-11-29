@@ -15,6 +15,12 @@ p {
     align-items: center;
 }
 
+.main-container-wrapper {
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+}
+
 .main-container {
    width: 842px;
    height: 232px;
@@ -133,4 +139,13 @@ p {
         background: #617D98;
         color: white;
     }
+}
+
+.error-message {
+    color: #ED5D5D;
+    font-size: 14px;
+}
+
+.error {
+    border: 1px solid #ED5D5D;
 }
